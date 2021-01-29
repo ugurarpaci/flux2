@@ -512,6 +512,10 @@ flux create helmrelease nginx \
 
 ## Upgrade
 
+!!! note "Versions"
+Any PATCH version can be used to upgrade to a new MINOR version. It is for
+example safe to upgrade using `0.7.3`, even if you are running `0.6.x`.
+
 Update Flux CLI to the latest release with `brew upgrade fluxcd/tap/flux` or by
 downloading the binary from [GitHub](https://github.com/fluxcd/flux2/releases).
 
